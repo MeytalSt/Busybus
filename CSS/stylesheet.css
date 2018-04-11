@@ -93,6 +93,7 @@ ul {
   padding: 2px;
   border-bottom: 1px solid #979797;
   width: 100%;
+  float: left;
 }
 
 .buslines {
