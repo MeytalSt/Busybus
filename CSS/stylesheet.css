@@ -14,7 +14,6 @@ nav {
   background-color: #FFFFFF;
   margin: 0 auto;
   padding: 1px;
-  position: fixed;
   height: 30px;
 }
 
@@ -93,7 +92,6 @@ ul {
   margin: 0 auto;
   padding: 2px;
   border-bottom: 1px solid #979797;
-  display: inline-block;
   width: 100%;
 }
 
@@ -101,27 +99,31 @@ ul {
   box-sizing: border-box;
   background-color: #F2994A; /* orange */
   margin: 0 auto;
-  padding: 2px;
-  width: 96%;
 }
 
 .busnumber {
   box-sizing: border-box;
-  display: inline-block;
+  background-color: #F2994A; /* orange */
+  display: block;
+  margin: 0 auto;
   border-bottom: 1px solid #979797;
   float: left;
 }
 
 .busdestination {
   box-sizing: border-box;
-  display: block;
+  background-color: #F2994A; /* orange */
+  display: inline;
+  margin: 0 auto;
   border-bottom: 1px solid #979797;
   float: left;
 }
 
 .arrival {
   box-sizing: border-box;
-  display: block;
+  background-color: #F2994A; /* orange */
+  display: inline;
+  margin: 0 auto;
   border-bottom: 1px solid #979797;
   float: right;
 }
