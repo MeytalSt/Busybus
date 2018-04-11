@@ -15,7 +15,7 @@ nav {
   margin: 0 auto;
   padding: 1px;
   position: fixed;
-  height: 5px;
+  height: 30px;
 }
 
 h1 {
@@ -61,6 +61,7 @@ ul {
 }
 
 .arrow-left {
+  color: black;
   box-sizing: border-box;
   display: block;
   float: left;
@@ -88,6 +89,7 @@ ul {
 .whiteline {
   box-sizing: border-box;
   background-color: #F2F2F2; /* white */
+  color: #F2994A;
   margin: 0 auto;
   padding: 2px;
   border-bottom: 1px solid #979797;
