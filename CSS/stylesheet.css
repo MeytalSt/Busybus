@@ -22,6 +22,7 @@ h1 {
   font-weight: bold;
   line-height: 1.5;
   text-align: center;
+  padding: 0px;
 }
 
 h2 {
@@ -32,16 +33,20 @@ h2 {
   padding: 2px;
 }
 
-h3 {
-  font-size: 1.2em; /* 12px */
-  line-height: 1.5;
-}
-
 ul {
   list-style: none;
-  margin-left: 0px;
+  margin: 0px;
   padding: 0px;
-  display: block;
+  overflow: hidden;
+/*  display: inline-block; */
+}
+
+li {
+  list-style: none;
+  font-size: 1.3em;
+  margin-left: 0px;
+  padding: 10px;
+  display: inline-block;
 }
 
 .container {
@@ -54,17 +59,17 @@ ul {
   background-repeat: no-repeat;
   background-size: contain;
   margin: 0 auto;
-  padding: 1px;
+  padding: 4px;
   height: 20px;
-  width: 420px;
+  width: 100%;
 }
 
 .arrow-left {
   box-sizing: border-box;
   display: block;
   float: left;
-  font-size: 10px;
-  padding: 10px;
+/*  font-size: 10px; */
+  padding: 5px;
   width: 10%;
 }
 
@@ -74,15 +79,14 @@ ul {
   background-repeat: no-repeat;
   background-size: contain;
   height: 251px;
-  width: 420px;
+  width: 100%;
 }
 
 .buslist { /* parent div of whiteline buslines */
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 20px;
-  border-bottom: 1px solid #979797;
-  width: 96%;
+  padding: 0px;
+  width: 100%;
 }
 
 .whiteline {
@@ -90,41 +94,76 @@ ul {
   background-color: #F2F2F2; /* white */
   color: #F2994A;
   margin: 0 auto;
-  padding: 2px;
-  border-bottom: 1px solid #979797;
+  padding: 0px;
   width: 100%;
+/*  float: left; */
+}
+
+.busline {  /* on whiteline */
+  box-sizing: border-box;
+  font-size: 1.5em;
+  margin: 0 auto;
+  padding: 5px;
   float: left;
 }
 
-.buslines {
+.busdestination {  /* on whiteline */
   box-sizing: border-box;
-  background-color: #F2994A; /* orange */
+  font-size: 1.5em;
   margin: 0 auto;
-}
-
-.busnumber {
-  box-sizing: border-box;
-  background-color: #F2994A; /* orange */
-  display: block;
-  margin: 0 auto;
-  border-bottom: 1px solid #979797;
+  padding: 5px;
   float: left;
 }
 
-.busdestination {
+.arrival {  /* on whiteline */
   box-sizing: border-box;
-  background-color: #F2994A; /* orange */
-  display: inline;
+  font-size: 1.5em;
   margin: 0 auto;
-  border-bottom: 1px solid #979797;
-  float: left;
-}
-
-.arrival {
-  box-sizing: border-box;
-  background-color: #F2994A; /* orange */
-  display: inline;
-  margin: 0 auto;
-  border-bottom: 1px solid #979797;
+  padding: 5px;
   float: right;
+}
+
+.bus-list {  /* parent of ul, grandparent of busnumber-list, busdestination-list & busfrequencey-list */
+  box-sizing: border-box;
+  background-color: #F2994A;
+  margin: 0 auto;
+  padding: 0px;
+/*  border-bottom: 1px solid #979797; */
+  width: 100%
+}
+
+.busnumber-list { /* text */
+  float: left;
+  box-sizing: border-box;
+  padding: 0px;
+  width: 10%;
+/*  display: inline-block; */
+/*  margin: 0 auto; */
+/*  border-bottom: 1px solid #979797; */
+}
+
+.busdestination-list { /* text */
+  float: left;
+  box-sizing: border-box;
+  padding: 0px;
+  width: 45%;
+/*  display: inline-block; */
+/*  margin: 0 auto; */
+/*  border-bottom: 1px solid #979797; */
+
+}
+
+.busfrequencey-list { /* text */
+  float: left;
+  box-sizing: border-box;
+  padding: 0px;
+  width: 30%;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.arrival-list {
+  float: right;
+  box-sizing: border-box;
+  width: 20%
 }

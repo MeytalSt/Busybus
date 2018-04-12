@@ -17,7 +17,6 @@
       <nav class="container">
         <div class="arrow-left">
            <svg class="svg-inline--fa fa-chevron-left fa-w-10 fa-2x" aria-hidden="true" data-prefix="fa" data-icon="chevron-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
-           <!-- <i class="fa fa-chevron-left fa-inverse fa-2x" aria-hidden="true"></i> -->
         </div>
         <h1> Washington & State Station </h1>
       </nav>
@@ -28,72 +27,76 @@
 
     <section class="buslist container">
       <div class="whiteline">
-        <h2> Bus line </h2>
-        <h2> Destination </h2>
-        <h2> Frequency </h2>
+        <ul>
+          <li>
+            <span class="busline">Bus Line</span>
+            <span class="busdestination">Destination</span>
+            <span class="arrival">Arrival</span>
       </div>
 
-      <ul class="buslines">
+      <section class="bus-list">
         <h2> Eastbound </h2>
-        <li>
-          <span
-            class="busnumber"> 60 </span> <!-- display block float left -->
-          <span
-          class="busdestination"> Destination </span>
-           <h3> 124 </h3>
-        <li class="busdestination"> <!-- display block float left -->
-           <h3> Randolph/Harbor Dr </h3>
-           <h3> Navy Pier </h3>
-           <span
-             class="arrival">Arrival</span>
-        <li class="arrival">  <!-- display block float right -->
-            <h3> Every 20 minutes </h3>
-            <h3> Every 10 minutes </h3>
+        <ul>
+         <li class="bus-1">
+          <span class="busnumber-list"> 60 </span> <!-- display block float left -->
+          <span class="busdestination-list">Randolph/Harbor Dr</span>
+          <span class="busfrequencey-list">Every 20 minutes</span>
+          <span class="arrival-list">3 minutes</span>
         </li>
-     <ul class="buslines">
-       <h2> Northbound </h2>
-       <li class="busnumber"> <!-- display block float left -->
-           <h3> 151 </h3>
-       <li class="busdestination"> <!-- display block float left -->
-           <h3> Devon/Clark </h3>
-       <li class="arrival"> <!-- display block float right -->
-           <h3> Every 16 minutes </h3>
+        <li class="bus-2">
+           <span class="busnumber-list">124</span>
+           <span class="busdestination-list">Navy Pier</span>
+           <span class="busfrequencey-list">Every 10 minutes</span>
+           <span class="arrival-list">5 minutes</span>
+        </li>
 
+        <h2> Northbound </h2>
+        <li class="bus-3">  <!-- display block float right -->
+          <span class="busnumber-list">151</span>
+          <span class="busdestination-list">Devon/Clark</span>
+          <span class="busfrequencey-list">Every 16 minutes</span>
+          <span class="arrival-list">11 minutes</span>
+       </li>
 
-    <ul class="buslines">
-      <h2> Southbound </h2>
-      <li class="busnumber"> <!-- display block float left -->
-         <h3> J14 </h3>
-         <h3> 124 </h3>
-      <li class="busdestination"> <!-- display block float left -->
-        <h3> 103rd/Stony Island </h3>
-        <h3> Navy Pier </h3>
-      <li class="arrival"> <!-- display block float right -->
-        <h3> Every 15 minutes </h3>
-        <h3> Every 10 minutes </h3>
+       <h2> Southbound </h2>
+       <li class="bus-4"> <!-- display block float left -->
+         <span class="busnumber-list">J14</span>
+         <span class="busdestination-list">103rd/Stony Island</span>
+         <span class="busfrequencey-list">Every 15 minutes</span>
+         <span class="arrival-list">17 minutes</span>
+      </li>
+      <li class="bus-5"> <!-- display block float left -->
+        <span class="busnumber-list">124</span>
+        <span class="busdestination-list">Navy Pier</span>
+        <span class="busfrequencey-list">Every 10 minutes</span>
+        <span class="arrival-list">20 minutes</span>
+      </li>
 
-    <ul class="buslines">
       <h2> Reroute </h2>
-      <li class="busnumber"> <!-- display block float left -->
-        <h3> 6x </h3>
-      <li class="busdestination"> <!-- display block float left -->
-        <h3> Jackson Park Express </h3>
-      <li class="arrival"> <!-- display block float right -->
-        <h3> N/A </h3>
+      <li class="bus-6"> <!-- display block float left -->
+        <span class="busnumber-list">6x</span>
+        <span class="busdestination-list">Jackson Park Express</span>
+        <span class="busfrequencey-list">N/A</span>
+      </li>
 
         <h2> Out of service </h2>
-        <ul class="buslines">
-          <li class="busnumber"> <!-- display block float left -->
-            <h3> 4 </h3>
-            <h3> 20 </h3>
-            <h3> 157 </h3>
-          <li class="busdestination"> <!-- display block float left -->
-            <h3> Cottage Grove </h3>
-            <h3> Madison </h3>
-            <h3> Streeterville/Taylor </h3>
-          <li class="arrival"> <!-- display block float right -->
-            <h3> Resumes 12:10am </h3>
-            <h3> Resumes 12:10am </h3>
-            <h3> Resumes 6:00am </h3>
+        <li class="bus-7">
+          <span class="busnumber-list">4</span>
+          <span class="busdestination-list">Cottage Grove</span>
+          <span class="busfrequencey-list">Resumes 12:10am</span>
+        </li>
+
+        <li class="bus-8"> <!-- display block float left -->
+          <span class="busnumber-list">20</span>
+          <span class="busdestination-list">Madison</span>
+          <span class="busfrequencey-list">Resumes 12:10am</span>
+        </li>
+
+        <li class="bus-9"> <!-- display block float left -->
+          <span class="busnumber-list">157</span>
+          <span class="busdestination-list">Streeterville/Taylor</span>
+          <span class="busfrequencey-list">Resumes 6:00am</span>
+        </li>
+
   </section>
 </html>
