@@ -30,7 +30,7 @@ h2 {
   font-weight: bold;
   line-height: 1.5;
   color: white;
-  display: block;
+/*  display: block; */
   padding: 2px;
 }
 
@@ -38,7 +38,7 @@ ul {
   list-style: none;
   margin: 0px;
   padding: 0px;
-  overflow: hidden;
+/*  overflow: hidden; */
   display: inline-block;
 }
 
@@ -47,7 +47,8 @@ li {
   font-size: 1.3em;
   color: white;
   margin-left: 0px;
-  padding: 10px;
+  padding: 1px;
+  border-bottom: 1px solid #979797;
   display: inline-block;
 }
 
@@ -81,14 +82,14 @@ li {
   background-repeat: no-repeat;
   background-size: contain;
   height: 251px;
-  width: 100%;
+/*  width: 100%; */
 }
 
 .buslist { /* parent div of whiteline buslines */
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0px;
-  width: 100%;
+/*  width: 100%; */
 }
 
 .whiteline {
@@ -97,7 +98,7 @@ li {
   color: #F2994A;
   margin: 0 auto;
   padding: 0px;
-  width: 100%;
+/*  width: 100%; */
 /*  float: left; */
 }
 
@@ -130,19 +131,19 @@ li {
 
 .bus-list {  /* parent of ul, grandparent of busnumber-list, busdestination-list & busfrequencey-list */
   box-sizing: border-box;
-  background-color: #F2994A;
+  background-color: #F2994A; /* orange */
   margin: 0 auto;
   padding: 0px;
-  border-bottom: 1px solid #979797;
-  width: 100%
+/*  border-bottom: 1px solid #979797; */
+/*  width: 100% */
 }
 
 .busnumber-list { /* text */
   float: left;
   box-sizing: border-box;
-  padding: 0px;
+  padding: 5px;
   width: 10%;
-  display: block;
+/*  display: block; */
 /*  margin: 0 auto; */
 /*  border-bottom: 1px solid #979797; */
 }
@@ -150,9 +151,9 @@ li {
 .busdestination-list { /* text */
   float: left;
   box-sizing: border-box;
-  padding: 0px;
-  width: 45%;
-  display: block;
+  padding: 5px;
+  width: 50%;
+/*  display: block; */
 /*  margin: 0 auto; */
 /*  border-bottom: 1px solid #979797; */
 }
@@ -160,14 +161,16 @@ li {
 .arrival-list { /* text */
   float: right;
   box-sizing: border-box;
+  color: white;
+  font-size: 1.3em;
   width: 20%
 }
 
 .busfrequencey-list { /* text */
   float: left;
   box-sizing: border-box;
-  padding: 5px;
-  width: 40%;
-  display: block;
+  padding: 10px;
+  width: 60%;
+/*  display: block; */
   margin: 0 auto;
 }
