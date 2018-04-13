@@ -6,14 +6,14 @@ body {
   background-color: #FFFFFF;
   font-family: sans-serif;
   font-size: 10px;
-  width: 420px;
-  display: inline;
+/*  width: 420px; */
+/*  display: inline; */
 }
 
 nav {
   background-color: #FFFFFF;
   margin: 0 auto;
-  padding: 1px;
+  padding: 0px;
   height: 30px;
 }
 
@@ -38,7 +38,7 @@ ul {
   list-style: none;
   margin: 0px;
   padding: 0px;
-/*  overflow: hidden; */
+  overflow: hidden;
   display: inline-block;
 }
 
@@ -47,9 +47,14 @@ li {
   font-size: 1.3em;
   color: white;
   margin-left: 0px;
-  padding: 1px;
-  border-bottom: 1px solid #979797;
+  padding: 5px;
+border-bottom: 1px solid #979797;
   display: inline-block;
+}
+
+.section-container {
+  width: 420px;
+  margin: 0 auto;
 }
 
 .container {
@@ -68,16 +73,13 @@ li {
 }
 
 .arrow-left {
-  box-sizing: border-box;
   display: block;
   float: left;
-/*  font-size: 10px; */
   padding: 5px;
   width: 10%;
 }
 
 .map {
-  box-sizing: border-box;
   background-image: url(../Images/Map_image.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -86,14 +88,12 @@ li {
 }
 
 .buslist { /* parent div of whiteline buslines */
-  box-sizing: border-box;
   margin: 0 auto;
   padding: 0px;
 /*  width: 100%; */
 }
 
 .whiteline {
-  box-sizing: border-box;
   background-color: #F2F2F2; /* white */
   color: #F2994A;
   margin: 0 auto;
@@ -103,34 +103,30 @@ li {
 }
 
 .busline {  /* on whiteline */
-  box-sizing: border-box;
   font-size: 1.5em;
   color: #F2994A;
   margin: 0 auto;
-  padding: 5px;
+  padding: 10px; /* change padding */
   float: left;
 }
 
 .busdestination {  /* on whiteline */
-  box-sizing: border-box;
   font-size: 1.5em;
   color: #F2994A;
   margin: 0 auto;
-  padding: 5px;
+  padding: 10px; /* change padding */
   float: left;
 }
 
 .arrival {  /* on whiteline */
-  box-sizing: border-box;
   font-size: 1.5em;
   color: #F2994A;
   margin: 0 auto;
-  padding: 5px;
+  padding: 10px; /* change padding */
   float: right;
 }
 
 .bus-list {  /* parent of ul, grandparent of busnumber-list, busdestination-list & busfrequencey-list */
-  box-sizing: border-box;
   background-color: #F2994A; /* orange */
   margin: 0 auto;
   padding: 0px;
@@ -140,9 +136,9 @@ li {
 
 .busnumber-list { /* text */
   float: left;
-  box-sizing: border-box;
+  font-size: 1.3em;
   padding: 5px;
-  width: 10%;
+  width: 20%;
 /*  display: block; */
 /*  margin: 0 auto; */
 /*  border-bottom: 1px solid #979797; */
@@ -150,7 +146,6 @@ li {
 
 .busdestination-list { /* text */
   float: left;
-  box-sizing: border-box;
   padding: 5px;
   width: 50%;
 /*  display: block; */
@@ -160,17 +155,17 @@ li {
 
 .arrival-list { /* text */
   float: right;
-  box-sizing: border-box;
+  padding: 0px;
   color: white;
   font-size: 1.3em;
-  width: 20%
+  width: 25%
 }
 
 .busfrequencey-list { /* text */
   float: left;
-  box-sizing: border-box;
-  padding: 10px;
+  font-weight: lighter;
+  padding: 5px;
   width: 60%;
 /*  display: block; */
-  margin: 0 auto;
+/*  margin: 0 auto; */
 }
