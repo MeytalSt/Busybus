@@ -23,6 +23,7 @@ h1 {
   line-height: 1.5;
   text-align: center;
   padding: 0px;
+  width: 90%;
 }
 
 h2 {
@@ -47,8 +48,8 @@ li {
   font-size: 1.3em;
   color: white;
   margin-top: 3px;
-  padding: 5px;
-  border-bottom: 0.5px solid #BDBDBD;
+/*  padding: 5px; */
+/*  border-bottom: 0.5px solid #BDBDBD; */
   width: 100%;
   display: inline-block;
 }
@@ -66,9 +67,9 @@ li {
 .statusbar {
   background-image: url(../Images/Status_bar.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   margin: 0 auto;
-  padding: 4px;
+/*  padding: 4px; */
   height: 20px;
   width: 100%;
 }
@@ -81,9 +82,9 @@ li {
 }
 
 .map {
-  background-image: url(../Images/Map_image.jpg);
+  background-image: url(../Images/map_stations.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 251px;
 /*  width: 100%; */
 }
@@ -101,23 +102,23 @@ li {
   padding: 0px;
 }
 
-.busline {  /* Bus Line on whiteline */
+.busline {  /* Bus on whiteline */
   font-size: 1.5em;
   color: #F2994A;
   text-align: left;
   margin: 0 auto;
-  padding: 5px;
-  width: 30%;
+/*  padding: 5px; */
+  width: 25%;
   float: left;
 }
 
-.busdestination {  /* Destinatio on whiteline */
+.busdestination {  /* Destination on whiteline */
   font-size: 1.5em;
   color: #F2994A;
   text-align: left;
   margin: 0 auto;
-  padding: 5px;
-  width: 34%;
+/*  padding: 5px; */
+  width: 52%;
   float: left;
 }
 
@@ -126,17 +127,15 @@ li {
   color: #F2994A;
   text-align: center;
   margin: 0 auto;
-  padding: 5px;
-  width: 28%;
-  float: right;
+/*  padding: 5px; */
+  width: 40%;
+/*  float: right; */
 }
 
 .bus-list {  /* parent of ul, grandparent of busnumber-list, busdestination-list & busfrequencey-list */
   background-color: #F2994A; /* orange */
   margin: 0 auto;
   padding: 0px;
-/*  border-bottom: 1px solid #979797; */
-/*  width: 100% */
 }
 
 .busnumber-list { /* number */
@@ -144,18 +143,12 @@ li {
   font-size: 1.3em;
   padding: 5px;
   width: 20%;
-/*  display: block; */
-/*  margin: 0 auto; */
-/*  border-bottom: 1px solid #979797; */
 }
 
 .busdestination-list { /* text */
   float: left;
   padding: 5px;
   width: 46%;
-/*  display: block; */
-/*  margin: 0 auto; */
-/*  border-bottom: 1px solid #979797; */
 }
 
 .busfrequencey-list { /* text */
@@ -163,16 +156,18 @@ li {
   font-weight: lighter;
   padding: 5px;
   width: 45%;
-/*  display: block; */
-/*  margin: 0 auto; */
 }
 
 .arrival-list { /* minutes text */
-/*  clear: right; */
   margin-left: 5px;
   padding: 10px 5px 5px 5px;
   color: white;
   font-size: 1.3em;
   text-align: center;
-  width: 40%
+  width: 40%;
+}
+
+.padding {
+  padding: 5px;
+  border-bottom: 0.5px solid #BDBDBD;
 }
