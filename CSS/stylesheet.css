@@ -97,14 +97,14 @@ li {
 
 .whiteline {
   background-color: #F2F2F2; /* white */
-  color: #F2994A;
+  color: #DC771E;
   margin: 0 auto;
   padding: 0px;
 }
 
 .busline {  /* Bus on whiteline */
   font-size: 1.5em;
-  color: #F2994A;
+  color: #DC771E;
   text-align: left;
   margin: 0 auto;
   width: 22%;
@@ -113,7 +113,7 @@ li {
 
 .busdestination {  /* Destination on whiteline */
   font-size: 1.5em;
-  color: #F2994A;
+  color: #DC771E;
   text-align: left;
   margin: 0 auto;
 /*  padding: 5px; */
@@ -123,7 +123,7 @@ li {
 
 .arrival {  /* Arrival on whiteline */
   font-size: 1.5em;
-  color: #F2994A;
+  color: #DC771E;
   text-align: right;
   margin: 0 auto;
   padding: 5px;
@@ -132,7 +132,7 @@ li {
 }
 
 .bus-list {  /* parent of ul, grandparent of busnumber-list, busdestination-list & busfrequencey-list */
-  background-color: #F2994A; /* orange */
+  background-color: #DC771E; /* orange */
   margin: 0 auto;
   padding: 0px;
 }
